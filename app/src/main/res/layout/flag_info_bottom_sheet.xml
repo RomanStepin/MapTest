@@ -49,8 +49,8 @@
 
     <ImageView
         android:id="@+id/gps_state_image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toEndOf="@+id/avatar_image_view"
@@ -61,7 +61,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
+        android:layout_marginStart="2dp"
         android:text="GPS"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/gps_state_image_view"
@@ -70,7 +70,7 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
+        android:layout_width="16dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
@@ -82,7 +82,7 @@
         android:id="@+id/date_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
+        android:layout_marginStart="2dp"
         android:text="02.07.17"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
@@ -91,8 +91,8 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/date_text"
         app:layout_constraintStart_toEndOf="@+id/date_text"
@@ -103,8 +103,8 @@
         android:id="@+id/time_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:text="14:00"
+        android:layout_marginStart="2dp"
+        android:text="14:00:00"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintStart_toEndOf="@+id/imageView4"

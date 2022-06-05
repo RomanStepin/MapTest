@@ -1,7 +1,7 @@
 package com.example.maptest.ai.map
 
 import androidx.lifecycle.ViewModel
-import com.example.maptest.ai.model.Flag
+import com.example.maptest.model.Flag
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.subjects.BehaviorSubject
 

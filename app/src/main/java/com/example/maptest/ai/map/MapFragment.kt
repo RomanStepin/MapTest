@@ -92,6 +92,10 @@ class MapFragment : Fragment() {
             viewModel.activeFlagInfoNumber = viewModel.activeFlagInfoNumber + 1
             showFlagInfoBehavior()
         }
+        binding.includeBottomSheet.bottomSheet.setOnClickListener {
+            viewModel.activeFlagInfoNumber = 0
+            hideFlagInfoBehavior()
+        }
     }
 
     private fun initMap() {
